@@ -1,0 +1,21 @@
+<config>
+<modules>
+<TK1_M2eenhancements>
+<version>0.2.0</version>
+</TK1_M2eenhancements>
+</modules>
+<global>
+<models>
+	<m2eenhancements>
+		<class>TK1_M2eenhancements_Model</class>
+	</m2eenhancements>
+	<M2ePro>
+		<rewrite>
+			<Amazon_Synchronization_Templates_Inspector>TK1_M2eenhancements_Model_Amazon_Synchronization_Templates_Inspector</Amazon_Synchronization_Templates_Inspector>
+			<Connector_Amazon_Dispatcher>TK1_M2eenhancements_Model_Connector_Amazon_Dispatcher</Connector_Amazon_Dispatcher>
+			<Connector_Amazon_Orders_Update_ItemsRequester>TK1_M2eenhancements_Model_Connector_Amazon_Orders_Update_ItemsRequester</Connector_Amazon_Orders_Update_ItemsRequester>
+		</rewrite>
+	</M2ePro>
+</models>
+</global>
+</config>

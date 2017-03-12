@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<TK1_M2eenhancements>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends><Ess_M2ePro /></depends>
+		</TK1_M2eenhancements>
+	</modules>
+</config>
